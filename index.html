@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enoteca locale specializzata in vini del territorio. Selezione curata di piccoli produttori e cantine rinomate. Consulenza personalizzata, consegna rapida, degustazioni in negozio.">
+    <title>Enoteca Locale - La Tua Passione per il Vino, la Nostra Tradizione del Territorio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>🍷 Enoteca Locale</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#prodotti">Prodotti</a></li>
+                <li><a href="#novita">Novità</a></li>
+                <li><a href="#offerte">Offerte</a></li>
+                <li><a href="#degustazioni">Degustazioni</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>La Tua Passione per il Vino, la Nostra Tradizione del Territorio</h1>
+            <p>Scopri l'autenticità dei vini locali selezionati con cura tra i migliori produttori della zona. Ogni bottiglia racconta una storia di terroir, passione e artigianalità.</p>
+            <div class="hero-buttons">
+                <a href="#prodotti" class="btn btn-primary">Esplora la Selezione</a>
+                <a href="#contatti" class="btn btn-secondary">Vieni a Trovarci</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chi Siamo -->
+    <section id="chi-siamo" class="section">
+        <div class="container">
+            <h2>La Nostra Storia, Il Nostro Territorio</h2>
+            <div class="content-text">
+                <p>Da generazioni siamo al servizio degli amanti del vino che cercano autenticità e qualità. La nostra enoteca non è solo un punto vendita: è un luogo dove la passione per il territorio incontra l'eccellenza enologica.</p>
+                <p>Perlustriamo costantemente colline e vallate alla ricerca di quei vini speciali che raccontano il carattere unico del nostro terroir. Collaboriamo con piccoli produttori locali che lavorano con dedizione seguendo metodi tradizionali, ma anche con cantine rinomate che hanno fatto della nostra regione un punto di riferimento nel panorama vinicolo nazionale.</p>
+                <p>Ogni bottiglia che selezioniamo deve superare il nostro esame attento: qualità, autenticità, carattere. Vogliamo che tu possa gustare vini che esprimono appieno il potenziale del nostro territorio, dove ogni vitigno trova la sua espressione migliore.</p>
+                <p>Venire da noi significa non solo acquistare un vino, ma scoprire una storia, un territorio, un produttore che ha messo il cuore in ogni goccia. Siamo qui per guidarti in questo viaggio di scoperta.</p>
+            </div>
+
+            <h2 class="section-title">Cosa Ci Distingue</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Vini Autentici, Storie Vere</h3>
+                    <p>Non vendiamo semplicemente vino: selezioniamo e curiamo ogni bottiglia con l'attenzione di chi conosce profondamente il territorio. Ogni anno percorriamo chilometri tra vigneti e cantine per portare in negozio solo il meglio: vini che esprimono il carattere del terroir locale, dove l'artigianalità incontra la tradizione.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Consigli Su Misura per Ogni Occasione</h3>
+                    <p>Il nostro team unisce passione e competenza tecnica. Siamo qui per aiutarti a trovare il vino perfetto per ogni momento: dal pranzo domenicale con la famiglia alla cena importante, dal regalo speciale all'aperitivo tra amici. Consultaci telefonicamente, via chat o direttamente in negozio: la tua soddisfazione è la nostra priorità.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Radicati nel Territorio, Aperti al Mondo</h3>
+                    <p>Valorizziamo i piccoli produttori locali che lavorano con metodi tradizionali e rispetto per l'ambiente, ma non trascuriamo le cantine più affermate che hanno portato il nostro territorio all'eccellenza. Crediamo che ogni vino debba raccontare una storia autentica del luogo da cui proviene.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Sempre Vicino a Te</h3>
+                    <p>Consegna rapida in zona e servizio di consulenza personalizzata garantiscono che il vino perfetto arrivi direttamente da te. Per noi, ogni cliente è importante e merita un'attenzione dedicata.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prodotti -->
+    <section id="prodotti" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">La Nostra Selezione</h2>
+            
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">Tutti</button>
+                <button class="filter-btn" data-category="rossi">Rossi</button>
+                <button class="filter-btn" data-category="bianchi">Bianchi</button>
+                <button class="filter-btn" data-category="rosati">Rosati & Bollicine</button>
+                <button class="filter-btn" data-category="meditazione">Da Meditazione</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Vino Rosso 1 -->
+                <div class="product-card" data-category="rossi">
+                    <div class="product-badge">Rosso</div>
+                    <div class="product-content">
+                        <h3>[Nome del Vino]</h3>
+                        <div class="product-info">
+                            <span class="annata">Annata: 2020</span>
+                            <span class="cantina">[Nome Cantina]</span>
+                        </div>
+                        <p class="tipologia">[Nome Denominazione] - Rosso</p>
+                        <div class="price">€18,00</div>
+                        <p class="degustazione">Colore rubino intenso con riflessi granati. Al naso si apre con note di frutta rossa matura, ciliegia e amarena, accompagnate da sentori speziati di pepe nero e chiodi di garofano. In bocca è strutturato ma equilibrato, con tannini eleganti e una persistenza che ricorda la mora e il tabacco.</p>
+                        <div class="abbinamenti">
+                            <strong>Abbinamenti:</strong> Carni rosse alla griglia, brasati, formaggi stagionati
+                        </div>
+                        <div class="occasione">
+                            <strong>Occasione:</strong> Cene importanti e momenti conviviali
+                        </div>
+                        <button class="btn btn-product">Info & Contatta</button>
+                    </div>
+                </div>
+
+                <!-- Vino Rosso 2 -->
+                <div class="product-card featured" data-category="rossi">
+                    <div class="product-badge">Rosso Riserva</div>
+                    <div class="product-content">
+                        <h3>[Nome del Vino]</h3>
+                        <div class="product-info">
+                            <span class="annata">Annata: 2019</span>
+                            <span class="cantina">[Nome Cantina] - Piccolo Produttore</span>
+                        </div>
+                        <p class="tipologia">[Nome Denominazione] - Rosso Riserva</p>
+                        <div class="price">€28,00</div>
+                        <p class="degustazione">Prodotto da un piccolo produttore locale con metodo tradizionale, questo Riserva vanta un profilo complesso e raffinato. Colore granato profondo. Al naso emergono note di frutta sotto spirito, confettura di prugna, spezie dolci come vaniglia e cannella, con un elegante fondo balsamico.</p>
+                        <div class="storia">
+                            <strong>Storia:</strong> Questo vino nasce da una piccola cantina familiare dove la tradizione si tramanda da tre generazioni. Le uve vengono raccolte manualmente e la vinificazione segue i metodi tradizionali del nonno.
+                        </div>
+                        <div class="abbinamenti">
+                            <strong>Abbinamenti:</strong> Selvaggina, carni grasse, formaggi molto stagionati
+                        </div>
+                        <button class="btn btn-product">Info & Contatta</button>
+                    </div>
+                </div>
+
+                <!-- Vino Bianco 1 -->
+                <div class="product-card" data-category="bianchi">
+                    <div class="product-badge">Bianco</div>
+                    <div class="product-content">
+                        <h3>[Nome del Vino]</h3>
+                        <div class="product-info">
+                            <span class="annata">Annata: 2022</span>
+                            <span class="cantina">[Nome Cantina]</span>
+                        </div>
+                        <p class="tipologia">[Nome Denominazione] - Bianco</p>
+                        <div class="price">€15,00</div>
+                        <p class="degustazione">Giallo paglierino brillante con riflessi verdi. Il bouquet olfattivo è fresco e intenso, con profumi di agrumi (limone e pompelmo), fiori bianchi e note minerali che ricordano la pietra focaia. Al palato è vivace e dinamico, con acidità ben bilanciata.</p>
+                        <div class="abbinamenti">
+                            <strong>Abbinamenti:</strong> Antipasti di mare, pesce fresco, risotti ai frutti di mare
+                        </div>
+                        <div class="occasione">
+                            <strong>Occasione:</strong> Vino versatile per tutti i giorni, perfetto per le stagioni calde
+                        </div>
+                        <button class="btn btn-product">Info & Contatta</button>
+                    </div>
+                </div>
+
+                <!-- Vino Bianco 2 -->
+                <div class="product-card" data-category="bianchi">
+                    <div class="product-badge">Bianco Superiore</div>
+                    <div class="product-content">
+                        <h3>[Nome del Vino]</h3>
+                        <div class="product-info">
+                            <span class="annata">Annata: 2021</span>
+                            <span class="cantina">[Nome Cantina] - Cantina Storica</span>
+                        </div>
+                        <p class="tipologia">[Nome Denominazione] - Bianco Superiore</p>
+                        <div class="price">€22,00</div>
+                        <p class="degustazione">Vino bianco di grande struttura e complessità, proveniente da una delle cantine più prestigiose della zona. Colore giallo dorato intenso. Al naso esprime note di frutta matura (pesca bianca, albicocca), sentori floreali complessi e note minerali eteree.</p>
+                        <div class="abbinamenti">
+                            <strong>Abbinamenti:</strong> Primi piatti elaborati, pesce in umido, pollame
+                        </div>
+                        <div class="occasione">
+                            <strong>Occasione:</strong> Occasioni speciali e cene importanti
+                        </div>
+                        <button class="btn btn-product">Info & Contatta</button>
+                    </div>
+                </div>
+
+                <!-- Rosato -->
+                <div class="product-card" data-category="rosati">
+                    <div class="product-badge">Rosato</div>
+                    <div class="product-content">
+                        <h3>[Nome del Vino]</h3>
+                        <div class="product-info">
+                            <span class="annata">Annata: 2023</span>
+                            <span class="cantina">[Nome Cantina]</span>
+                        </div>
+                        <p class="tipologia">[Nome Denominazione] - Rosato</p>
+                        <div class="price">€12,00</div>
+                        <p class="degustazione">Rosato elegante di colore rosa salmone vivace. Al naso si presenta fresco e fruttato con note di fragola, lampone e fiori di pesco. Il palato è vivace e equilibrato, con acidità piacevole che rende il vino dissetante e versatile.</p>
+                        <div class="abbinamenti">
+                            <strong>Abbinamenti:</strong> Aperitivi, antipasti freddi, insalate, pesce crudo
+                        </div>
+                        <div class="occasione">
+                            <strong>Occasione:</strong> Moment conviviali informali, aperitivi tra amici
+                        </div>
+                        <button class="btn btn-product">Info & Contatta</button>
+                    </div>
+                </div>
+
+                <!-- Spumante -->
+                <div class="product-card" data-category="rosati">
+                    <div class="product-badge">Metodo Classico</div>
+                    <div class="product-content">
+                        <h3>[Nome del Vino]</h3>
+                        <div class="product-info">
+                            <span class="annata">NV (Non Vintage)</span>
+                            <span class="cantina">[Nome Cantina]</span>
+                        </div>
+                        <p class="tipologia">[Nome Denominazione] - Metodo Classico</p>
+                        <div class="price">€25,00</div>
+                        <p class="degustazione">Spumante prodotto con metodo classico da un piccolo produttore locale. Perlage fine e persistente. Al naso emergono note di pane tostato, lievito, frutta gialla e fiori di acacia. Il palato è elegante e strutturato, con bollicine finissime che donano cremosità.</p>
+                        <div class="abbinamenti">
+                            <strong>Abbinamenti:</strong> Aperitivo, antipasti, pesce crudo, brindisi
+                        </div>
+                        <div class="occasione">
+                            <strong>Occasione:</strong> Celebrazioni, compleanni, anniversari
+                        </div>
+                        <button class="btn btn-product">Info & Contatta</button>
+                    </div>
+                </div>
+
+                <!-- Passito -->
+                <div class="product-card featured" data-category="meditazione">
+                    <div class="product-badge">Passito</div>
+                    <div class="product-content">
+                        <h3>[Nome del Vino]</h3>
+                        <div class="product-info">
+                            <span class="annata">Annata: 2018</span>
+                            <span class="cantina">[Nome Cantina] - Piccolo Produttore</span>
+                        </div>
+                        <p class="tipologia">[Nome Denominazione] - Passito</p>
+                        <div class="price">€35,00</div>
+                        <p class="degustazione">Vino passito raro e prezioso, prodotto in quantità limitate da un artigiano locale seguendo metodi antichi. Colore ambra intenso con riflessi dorati. Il naso esplode con note di miele, frutta secca (fichi, datteri), uvetta, caramello e spezie dolci.</p>
+                        <div class="storia">
+                            <strong>Storia:</strong> Questo passito nasce da un'antica ricetta di famiglia, tramandata di generazione in generazione. Le uve vengono lasciate appassire naturalmente al sole, seguendo il ritmo delle stagioni. Ogni bottiglia è numerata.
+                        </div>
+                        <div class="abbinamenti">
+                            <strong>Abbinamenti:</strong> Dolci secchi, torte rustiche, formaggi erborinati
+                        </div>
+                        <button class="btn btn-product">Info & Contatta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Novità -->
+    <section id="novita" class="section">
+        <div class="container">
+            <h2 class="section-title">Le Ultime Scoperte del Territorio</h2>
+            <p class="intro-text">La nostra passione per la ricerca non si ferma mai. Continuiamo a esplorare le colline locali per portarti sempre nuove scoperte enologiche. Ogni mese aggiungiamo nuove bottiglie alla nostra selezione, sempre mantenendo alti gli standard di qualità e autenticità.</p>
+            
+            <div class="novita-card">
+                <div class="novita-badge">SCOPERTA DI STAGIONE</div>
+                <h3>[Nome del Vino]</h3>
+                <div class="novita-info">
+                    <span>Annata: 2022 | [Nome Nuova Cantina] | [Nome Denominazione]</span>
+                </div>
+                <p>Una piccola cantina che abbiamo scoperto durante una delle nostre esplorazioni del territorio. Vini prodotti con metodi biodinamici, espressione pura del terroir. Merita di essere conosciuta!</p>
+                <div class="novita-price">
+                    <span class="price-old">€18,00</span>
+                    <span class="price-new">€16,00</span>
+                </div>
+                <button class="btn btn-primary">Scopri di Più</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offerte -->
+    <section id="offerte" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Offerte del Mese</h2>
+            <p class="intro-text">Ogni mese proponiamo selezioni speciali a prezzi vantaggiosi: confezioni regalo, vini in promozione, abbinamenti curati dal nostro sommelier.</p>
+            
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-badge">PROMOZIONE AUTUNNO</div>
+                    <h3>Selezione Vini Rossi per l'Inverno</h3>
+                    <p>Prepara l'inverno con la nostra selezione di 3 rossi locali:</p>
+                    <ul>
+                        <li>[Vino 1] - 2020</li>
+                        <li>[Vino 2] - 2019</li>
+                        <li>[Vino 3] - 2021</li>
+                    </ul>
+                    <div class="offer-price">
+                        <span class="price-old">€60,00</span>
+                        <span class="price-new">€50,00</span>
+                    </div>
+                    <p class="offer-save">Risparmia €10 acquistando i tre vini insieme</p>
+                    <button class="btn btn-primary">Acquista Ora</button>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-badge">SCONTO FEDELTÀ</div>
+                    <h3>Acquista 6 bottiglie, scegli tu</h3>
+                    <p>Metti insieme 6 bottiglie qualsiasi dalla nostra selezione e ottieni uno sconto del 10%.</p>
+                    <p class="offer-desc">La perfetta occasione per fare scorta o creare una cantina personale curata.</p>
+                    <button class="btn btn-primary">Scopri di Più</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Degustazioni -->
+    <section id="degustazioni" class="section">
+        <div class="container">
+            <h2 class="section-title">Degustazioni e Eventi</h2>
+            <p>Ogni mese organizziamo degustazioni guidate nel nostro negozio per farti conoscere i vini e i produttori della zona. Un'occasione unica per:</p>
+            <ul class="degustazioni-list">
+                <li>Scoprire nuovi vini con l'aiuto del nostro sommelier</li>
+                <li>Conoscere i produttori e le loro storie</li>
+                <li>Imparare le tecniche di degustazione</li>
+                <li>Incontrare altri appassionati del territorio</li>
+            </ul>
+            
+            <div class="degustazione-card">
+                <h3>Prossima Degustazione</h3>
+                <div class="degustazione-title">"I Bianchi della Nostra Zona"</div>
+                <p>Degustazione guidata di 5 vini bianchi selezionati, accompagnati da formaggi e salumi locali.</p>
+                <div class="degustazione-info">
+                    <div class="info-item">
+                        <strong>Quando:</strong> [Data e ora]
+                    </div>
+                    <div class="info-item">
+                        <strong>Costo:</strong> €25,00 a persona
+                    </div>
+                    <div class="info-item">
+                        <strong>Posti limitati - Prenotazione obbligatoria</strong>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Prenota Ora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section id="contatti" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Vieni a Trovarci</h2>
+            <p class="intro-text">La nostra enoteca ti aspetta nel cuore di [città/zona]. Vieni a trovarci per scoprire la nostra selezione, respirare l'atmosfera del territorio e ricevere consigli personalizzati.</p>
+            
+            <div class="contacts-grid">
+                <div class="contact-info">
+                    <h3>Informazioni Contatto</h3>
+                    <div class="contact-item">
+                        <strong>Indirizzo:</strong><br>
+                        [Via, numero civico]<br>
+                        [CAP] [Città]
+                    </div>
+                    <div class="contact-item">
+                        <strong>Telefono:</strong><br>
+                        <a href="tel:[numero]">[Numero di telefono]</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong><br>
+                        <a href="mailto:[email]">[indirizzo email]</a>
+                    </div>
+                </div>
+
+                <div class="orari">
+                    <h3>Orari di Apertura</h3>
+                    <div class="orari-list">
+                        <div class="orario-item">
+                            <span class="giorno">Lunedì:</span>
+                            <span class="ora">Chiuso</span>
+                        </div>
+                        <div class="orario-item">
+                            <span class="giorno">Martedì - Venerdì:</span>
+                            <span class="ora">9:00 - 19:30</span>
+                        </div>
+                        <div class="orario-item">
+                            <span class="giorno">Sabato:</span>
+                            <span class="ora">9:00 - 20:00</span>
+                        </div>
+                        <div class="orario-item">
+                            <span class="giorno">Domenica:</span>
+                            <span class="ora">10:00 - 13:00</span>
+                        </div>
+                    </div>
+                    <div class="chat-info">
+                        <strong>Chat Online:</strong> Disponibile dal lunedì al sabato, 9:00 - 19:00
+                    </div>
+                </div>
+            </div>
+
+            <div class="servizi-section">
+                <h3>I Nostri Servizi</h3>
+                <div class="servizi-grid">
+                    <div class="servizio-card">
+                        <h4>🚚 Consegna Veloce in Zona</h4>
+                        <p>Ordiniamo il tuo vino preferito e lo consegniamo rapidamente a casa tua. Per ordini sopra €50,00 la consegna è gratuita!</p>
+                    </div>
+                    <div class="servizio-card">
+                        <h4>💬 Consulenza Personalizzata</h4>
+                        <p>Non sei sicuro quale vino scegliere? Il nostro team è a tua disposizione per consigli personalizzati in negozio, via telefono o chat online.</p>
+                    </div>
+                    <div class="servizio-card">
+                        <h4>🎉 Organizzazione Eventi</h4>
+                        <p>Organizzi un evento, un matrimonio, una cena importante? Possiamo aiutarti a selezionare i vini perfetti per la tua occasione speciale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🍷 Enoteca Locale</h3>
+                    <p>La passione per il vino del territorio è il nostro pane quotidiano. Ogni bottiglia che selezioniamo racconta una storia, ogni produttore che collaboriamo condivide la nostra visione: valorizzare l'autenticità, la qualità e la tradizione del nostro territorio.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Iscriviti per ricevere:</p>
+                    <ul>
+                        <li>Le ultime novità in negozio</li>
+                        <li>Inviti esclusivi alle degustazioni</li>
+                        <li>Offerte speciali riservate agli iscritti</li>
+                        <li>Consigli stagionali e abbinamenti</li>
+                    </ul>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="La tua email" required>
+                        <button type="submit" class="btn btn-primary">Iscriviti</button>
+                    </form>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Link Rapidi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#chi-siamo">Chi Siamo</a></li>
+                        <li><a href="#prodotti">Prodotti</a></li>
+                        <li><a href="#novita">Novità</a></li>
+                        <li><a href="#offerte">Offerte</a></li>
+                        <li><a href="#degustazioni">Degustazioni</a></li>
+                        <li><a href="#contatti">Contatti</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Seguici</h4>
+                    <p>Seguici su [Facebook/Instagram] per restare sempre aggiornato sulle nostre attività, scoperte del territorio e novità enologiche.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Enoteca Locale. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
