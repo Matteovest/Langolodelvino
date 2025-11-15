@@ -1,0 +1,50 @@
+GUIDA ALLE IMMAGINI DEI VINI
+============================
+
+Questa cartella contiene le immagini dei vini da mostrare sul sito web.
+
+NOMI DEI FILE RICHIESTI:
+------------------------
+
+1. aimè-pecorino.jpg          - Aimè Pecorino Superiore Biologico - Cascina del Colle
+2. bianco-grignanello.jpg     - Bianco di Grignanello - Azienda Grignanello
+3. le-lase-pinot-grigio.jpg   - Le Lase Pinot Grigio Satres
+4. donna-walda.jpg            - Donna Walda - Ciucci Biologico
+5. violone-le-lase.jpg        - Violone DOP Tuscia - Le Lase
+6. negus-cascina-del-colle.jpg - Negus - Cascina del Colle
+7. amarone-tommasi.jpg        - Amarone - Tommasi
+
+COME OTTENERE LE IMMAGINI:
+--------------------------
+
+Opzione 1: SCATTA FOTO
+- Scatta foto delle bottiglie dei vini in negozio
+- Assicurati che siano ben illuminate
+- Usa uno sfondo neutro (bianco o grigio chiaro)
+- Dimensioni consigliate: larghezza minima 600px, altezza 800-1000px
+
+Opzione 2: DOWNLOAD DAI SITI UFFICIALI
+- Visita i siti web delle cantine
+- Scarica le immagini ufficiali delle bottiglie
+- Chiedi permesso se necessario
+
+SITI UFFICIALI:
+--------------
+- Le Lase: https://lelase.com
+- Cascina del Colle: https://www.lacascinadelcolle.it
+- Tommasi: https://tommasiwine.it
+- Ciucci: Cerca online per il sito ufficiale
+- Grignanello: Cerca online per il sito ufficiale
+
+IMPORTANTE:
+-----------
+- Le immagini devono essere in formato JPG o PNG
+- Se un'immagine non viene trovata, verrà mostrato un placeholder
+- Il sito funzionerà comunque anche senza immagini
+
+DOPO AVER SALVATO LE IMMAGINI:
+------------------------------
+Assicurati che i file abbiano esattamente i nomi indicati sopra (attenzione alle maiuscole/minuscole e ai caratteri speciali).
+
+Il sito caricherà automaticamente le immagini quando saranno presenti in questa cartella.
+
